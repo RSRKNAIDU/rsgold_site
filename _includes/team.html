@@ -1,0 +1,35 @@
+<!-- Team Section -->
+<section id="team" class="team section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>{{ site.data.team.title }}</h2>
+      <div><span>{{ site.data.team.subtitle }}</span> <span class="description-title">{{ site.data.team.description_title }}</span></div>
+    </div><!-- End Section Title -->
+  
+    <div class="container">
+      <div class="row gy-4">
+        {% for member in site.data.team.members %}
+        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 100 | plus: 100 }}">
+          <div class="member">
+            <img src="{{ member.image }}" class="img-fluid" alt="{{ member.name }}">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>{{ member.name }}</h4>
+                <span>{{ member.role }}</span>
+              </div>
+              <div class="social">
+                <a href="{{ member.social.twitter }}"><i class="bi bi-twitter-x"></i></a>
+                <a href="{{ member.social.facebook }}"><i class="bi bi-facebook"></i></a>
+                <a href="{{ member.social.instagram }}"><i class="bi bi-instagram"></i></a>
+                <a href="{{ member.social.linkedin }}"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+        {% endfor %}
+      </div>
+    </div>
+  
+  </section><!-- /Team Section -->
+  

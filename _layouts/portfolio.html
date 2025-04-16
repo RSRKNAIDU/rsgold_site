@@ -1,0 +1,77 @@
+---
+layout: default                                                  
+---
+<!-- Portfolio Details Section -->
+<section id="portfolio-details" class="portfolio-details section">
+  <div class="container" data-aos="fade-up">
+    <div class="portfolio-details-slider swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "navigation": {
+            "nextEl": ".swiper-button-next",
+            "prevEl": ".swiper-button-prev"
+          },
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
+      <div class="swiper-wrapper align-items-center">
+        {% for image in page.images %}
+        <div class="swiper-slide">
+          <img src="{{ image }}" alt="">
+        </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="row justify-content-between gy-4 mt-4">
+      <div class="col-lg-8" data-aos="fade-up">
+        <div class="portfolio-description">
+          <h2>{{ page.title }}</h2>
+          {% for paragraph in page.description %}
+          <p>{{ paragraph }}</p>
+          {% endfor %}
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>{{ page.testimonial.text }}</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <div>
+              <img src="{{ page.testimonial.image }}" class="testimonial-img" alt="">
+              <h3>{{ page.testimonial.name }}</h3>
+              <h4>{{ page.testimonial.title }}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="portfolio-info">
+          <h3>Project information</h3>
+          <ul>
+            <li><strong>Category</strong> {{ page.info.category }}</li>
+            <li><strong>Client</strong> {{ page.info.client }}</li>
+            <li><strong>Project date</strong> {{ page.info.date }}</li>
+            <li><strong>Project URL</strong> <a href="{{ page.info.url }}">{{ page.info.url }}</a></li>
+            <li><a href="{{ page.info.url }}" class="btn-visit align-self-start">Visit Website</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Portfolio Details Section -->

@@ -1,0 +1,36 @@
+title: Team
+subtitle: Check Our
+description_title: Team
+members:
+  - name: Walter White
+    role: Chief Executive Officer
+    image: assets/img/team/team-1.jpg
+    social:
+      twitter: "#"
+      facebook: "#"
+      instagram: "#"
+      linkedin: "#"
+  - name: Sarah Jhonson
+    role: Product Manager
+    image: assets/img/team/team-2.jpg
+    social:
+      twitter: "#"
+      facebook: "#"
+      instagram: "#"
+      linkedin: "#"
+  - name: William Anderson
+    role: CTO
+    image: assets/img/team/team-3.jpg
+    social:
+      twitter: "#"
+      facebook: "#"
+      instagram: "#"
+      linkedin: "#"
+  - name: Amanda Jepson
+    role: Accountant
+    image: assets/img/team/team-4.jpg
+    social:
+      twitter: "#"
+      facebook: "#"
+      instagram: "#"
+      linkedin: "#"

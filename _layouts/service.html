@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<!-- Service Details Section -->
+<section id="service-details" class="service-details section">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="services-list">
+          {% for item in site.data.services %}
+            <a href="/services/{{ item.slug }}" class="{% if page.slug == item.slug %}active{% endif %}">
+              {{ item.title }}
+            </a>
+          {% endfor %}
+        </div>
+
+        <h4>{{ page.subtitle }}</h4>
+        <p>{{ page.description }}</p>
+      </div>
+
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+        <img src="{{ page.image }}" alt="" class="img-fluid services-img">
+        <h3>{{ page.title }}</h3>
+        <p>{{ page.content }}</p>
+        <ul>
+          {% for point in page.points %}
+            <li><i class="bi bi-check-circle"></i> <span>{{ point }}</span></li>
+          {% endfor %}
+        </ul>
+        <p>{{ page.more }}</p>
+      </div>
+
+    </div>
+  </div>
+</section>

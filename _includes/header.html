@@ -1,0 +1,56 @@
+<header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+    <a href="/" class="logo d-flex align-items-center"><h1 class="sitename">{{ site.title }}</h1></a>
+
+    <nav id="navmenu" class="navmenu">
+      <ul> 
+        {% for item in site.data.navigation %}
+          {% if item.dropdown %}
+            <li class="dropdown">
+              <a href="#"><span>{{ item.title }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                {% for sub in item.submenu %}
+                  {% if sub.dropdown %}
+                    <li class="dropdown">
+                      <a href="#"><span>{{ sub.title }}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                      <ul>
+                        {% for deep in sub.submenu %}
+                          <li><a href="{{ deep.url }}">{{ deep.title }}</a></li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% else %}
+                    <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+  </div>
+</header>
+
+  {%- unless page.layout == 'home' -%}
+  <!-- Page Title -->
+  <div class="page-title dark-background">
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li class="current">{{ page.title }}</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- End Page Title -->
+  {%- endunless -%}
+
+  

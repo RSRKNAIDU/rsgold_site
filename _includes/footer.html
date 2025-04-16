@@ -1,0 +1,45 @@
+<footer id="footer" class="footer dark-background">
+  <div class="container footer-top">
+    <div class="row gy-4">
+      
+      <div class="col-3 footer-about">
+        <a href="/" class="logo d-flex align-items-center">
+          <span class="sitename">{{ site.title }}</span>
+        </a>
+        <div class="footer-contact pt-3">
+          <p>{{ site.data.home.contact.address_line1 }}</p>
+          <p>{{ site.data.home.contact.address_line2 }}</p>
+          <p class="mt-3"><strong>Phone:</strong> <span>{{ site.data.home.contact.phone }}, <span>{{ site.data.home.contact.phone_alt }}</span></p>
+          <p><strong>Email:</strong> <span>{{ site.data.home.contact.email }}</span>, <span>{{ site.data.home.contact.email_alt }}</span></p>
+        </div>
+        <div class="social-links d-flex mt-4">
+          {% for link in site.data.home.social_links %}
+            <a href="{{ link.url }}"><i class="bi bi-{{ link.platform }}"></i></a>
+          {% endfor %}
+        </div>
+      </div> 
+
+      <div class="col-3 footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          {% for item in site.data.home.useful_links %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-3 footer-links">
+        <h4>Our Branches</h4>
+        <ul>
+          {% for branch in site.data.home.branches %}
+            <li><a href="#">{{ branch }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div> 
+
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">{{ site.title }}.</strong> <span>All Rights Reserved</span></p>
+  </div>
+</footer>

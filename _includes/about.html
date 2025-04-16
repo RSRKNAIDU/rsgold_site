@@ -1,0 +1,34 @@
+<!-- About Section -->
+<section id="about" class="about section">
+    <div class="container">
+      <div class="row gy-4">
+  
+        <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
+          <img src="{{ site.data.about.image }}" class="img-fluid" alt="">
+          <a href="{{ site.data.about.video_link }}" class="glightbox pulsating-play-btn"></a>
+        </div>
+  
+        <div class="col-lg-7 content ps-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <h3>{{ site.data.about.title }}</h3>
+          <p>{{ site.data.about.intro }}</p>
+  
+          <ul>
+            {% for item in site.data.about.points %}
+            <li>
+              <i class="{{ item.icon }}"></i>
+              <div>
+                <h5>{{ item.heading }}</h5>
+                <p>{{ item.text }}</p>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+  
+          <p>{{ site.data.about.outro }}</p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <!-- /About Section -->
+  

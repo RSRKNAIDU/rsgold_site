@@ -1,0 +1,66 @@
+title: Portfolio
+subtitle_prefix: Check Our
+subtitle_highlight: Portfolio
+
+filters:
+  - label: All
+    filter: "*"
+    active: filter-active
+  - label: App
+    filter: ".filter-app"
+  - label: Product
+    filter: ".filter-product"
+  - label: Branding
+    filter: ".filter-branding"
+  - label: Books
+    filter: ".filter-books"
+
+items:
+  - image: assets/img/portfolio/app-1.jpg
+    category: filter-app
+    gallery: portfolio-gallery-app
+    link: portfolio-details.html
+  - image: assets/img/portfolio/product-1.jpg
+    category: filter-product
+    gallery: portfolio-gallery-product
+    link: portfolio-details.html
+  - image: assets/img/portfolio/branding-1.jpg
+    category: filter-branding
+    gallery: portfolio-gallery-branding
+    link: portfolio-details.html
+  - image: assets/img/portfolio/books-1.jpg
+    category: filter-books
+    gallery: portfolio-gallery-book
+    link: portfolio-details.html
+  - image: assets/img/portfolio/app-2.jpg
+    category: filter-app
+    gallery: portfolio-gallery-app
+    link: portfolio-details.html
+  - image: assets/img/portfolio/product-2.jpg
+    category: filter-product
+    gallery: portfolio-gallery-product
+    link: portfolio-details.html
+  - image: assets/img/portfolio/branding-2.jpg
+    category: filter-branding
+    gallery: portfolio-gallery-branding
+    link: portfolio-details.html
+  - image: assets/img/portfolio/books-2.jpg
+    category: filter-books
+    gallery: portfolio-gallery-book
+    link: portfolio-details.html
+  - image: assets/img/portfolio/app-3.jpg
+    category: filter-app
+    gallery: portfolio-gallery-app
+    link: portfolio-details.html
+  - image: assets/img/portfolio/product-3.jpg
+    category: filter-product
+    gallery: portfolio-gallery-product
+    link: portfolio-details.html
+  - image: assets/img/portfolio/branding-3.jpg
+    category: filter-branding
+    gallery: portfolio-gallery-branding
+    link: portfolio-details.html
+  - image: assets/img/portfolio/books-3.jpg
+    category: filter-books
+    gallery: portfolio-gallery-book
+    link: portfolio-details.html

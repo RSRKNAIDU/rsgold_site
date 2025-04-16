@@ -1,0 +1,18 @@
+<!-- Stats Section -->
+<section id="stats" class="stats section light-background">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        {% for item in site.data.stats %}
+        <div class="col-lg-3 col-md-6">
+          <div class="stats-item">
+            <i class="{{ item.icon }}"></i>
+            <span data-purecounter-start="0" data-purecounter-end="{{ item.count }}" data-purecounter-duration="1" class="purecounter"></span>
+            <p><strong>{{ item.title }}</strong> <span>{{ item.subtitle }}</span></p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <!-- /Stats Section -->
+  
