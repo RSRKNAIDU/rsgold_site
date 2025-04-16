@@ -1,19 +1,29 @@
 - icon: bi bi-emoji-smile
   count: 232
-  title: Happy Clients
+  title: Aadhar Card
   subtitle: consequuntur quae
 
 - icon: bi bi-journal-richtext
   count: 521
-  title: Projects
+  title: PAN Card
   subtitle: adipisci atque cum quia aut
 
 - icon: bi bi-headset
   count: 1453
-  title: Hours Of Support
+  title: Address Proof
   subtitle: aut commodi quaerat
 
 - icon: bi bi-people
   count: 32
-  title: Hard Workers
+  title: Work Proof
+  subtitle: rerum asperiores dolor
+
+- icon: bi bi-people
+  count: 32
+  title: Bank Passbook
+  subtitle: rerum asperiores dolor
+
+- icon: bi bi-people
+  count: 32
+  title: Bank Receipt (To Release gold)
   subtitle: rerum asperiores dolor

@@ -1,22 +1,22 @@
 interval: 5000
 items:
   - image: assets/img/hero-carousel/hero-carousel-1.jpg
-    title: Welcome to Hidayah
+    title: RS Gold
     description: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Sell Your Old Gold & Get Cash Instantly.
     button_text: Read More
     button_link: "#about"
 
   - image: assets/img/hero-carousel/hero-carousel-2.jpg
-    title: At vero eos et accusamus
+    title: Still confused how to sell gold?
     description: >
-      Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.
+      100% transparent process. Precise Gold Buying
     button_text: Read More
-    button_link: "#about"
+    button_link: "#services"
 
   - image: assets/img/hero-carousel/hero-carousel-3.jpg
-    title: Temporibus autem quibusdam
+    title: Check Our Testimonials
     description: >
-      Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.
+      What our customers had to say about us.
     button_text: Read More
-    button_link: "#about"
+    button_link: "#faq"

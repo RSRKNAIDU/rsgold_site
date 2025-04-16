@@ -1,0 +1,26 @@
+<!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section dark-background">
+
+    <img src="{{ site.data.home.call-to-action.image }}" alt="">
+  
+    <div class="services container">
+      <div class="row justify-content-center gy-4" data-aos="zoom-in" data-aos-delay="100">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <div><span>Documents</span> <span class="description-title">Required</span></div>
+        </div>
+      
+          {% for item in site.data.stats %}
+                   
+          <div class="col-4">
+            <div class="stats-item">
+              <div class="doc-card"> 
+            <div class="doc-title">{{ item.title }}</div>
+          </div> 
+            </div>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+  
+  </section><!-- /Call To Action Section -->

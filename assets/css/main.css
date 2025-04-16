@@ -1773,6 +1773,49 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.document-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.doc-card {
+  background-color: #0d3b66;
+  color: #f9f5ee;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.doc-card:hover {
+  transform: scale(1.05);
+}
+
+.doc-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+.doc-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .doc-card {
+    width: 100px;
+    padding: 1rem;
+  }
+
+  .doc-card img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .doc-title {
+    font-size: 0.85rem;
+  }
 }
