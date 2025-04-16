@@ -3,7 +3,7 @@ title: RS Gold
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   We buy your gold.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/rsgold_site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
