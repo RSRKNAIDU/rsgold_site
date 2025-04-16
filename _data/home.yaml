@@ -1,7 +1,7 @@
 services:
   - icon: bi bi-shop
     title: Visit RS Gold
-    description: Customers give their Gold to us for valuation. 
+    description: Customers give their Gold to us for valuation. Each transaction is dealt with privacy and security
     delay: 100
 
   - icon: bi bi-file-richtext
@@ -16,7 +16,7 @@ services:
 
   - icon: bi bi-graph-up-arrow
     title: Gold Valuation
-    description: We evaluate your gold. Based on the gold purity we will give you a quotation. Our rate is transparent.
+    description: We evaluate your gold. We do not remove beads/stones for evaluation. Based on the gold purity we will give you a quotation. Our rate is transparent.
     delay: 400
 
   - icon: bi bi-currency-exchange

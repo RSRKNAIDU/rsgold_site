@@ -1,10 +1,8 @@
 title: About Us
 image: assets/img/about.jpg
 video_link: https://www.youtube.com/watch?v=Y7f98aduVJ8
-intro: >
-  Sell Your Old Gold & Get Cash Instantly. Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
 points:
-  - icon: bi bi-bar-chart-line
+  - icon: bi bi-tag
     heading: Affordability
     text: DIGIGOLD offers the best price for all products compare to live market rates.
 
@@ -27,9 +25,3 @@ points:
   - icon: bi bi-currency-rupee
     heading: High Liquidity
     text: With DIGIGOLD you can buy, sell, gift, and store anywhere, anytime - online.
-
-outro: >
-  Free consultation through phone or online mode
-  Each transaction is dealt with privacy and security
-  No Damage or melting of gold jewelry
-  We do not remove beads/stones for evaluation
