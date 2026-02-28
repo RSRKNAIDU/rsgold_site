@@ -1,29 +1,6 @@
-- icon: bi bi-emoji-smile
-  count: 232
-  title: Aadhar Card
-  subtitle: consequuntur quae
-
-- icon: bi bi-journal-richtext
-  count: 521
-  title: PAN Card
-  subtitle: adipisci atque cum quia aut
-
-- icon: bi bi-headset
-  count: 1453
-  title: Address Proof
-  subtitle: aut commodi quaerat
-
-- icon: bi bi-people
-  count: 32
-  title: Work Proof
-  subtitle: rerum asperiores dolor
-
-- icon: bi bi-people
-  count: 32
-  title: Bank Passbook
-  subtitle: rerum asperiores dolor
-
-- icon: bi bi-people
-  count: 32
-  title: Bank Receipt (To Release gold)
-  subtitle: rerum asperiores dolor
+- title: Aadhaar Card
+- title: PAN Card
+- title: Address Proof
+- title: Bank Passbook
+- title: Loan Receipt (For Pledged Gold Release)
+- title: Owner Consent (If Applicable)

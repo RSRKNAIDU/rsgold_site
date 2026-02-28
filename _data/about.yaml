@@ -1,27 +1,25 @@
 title: About Us
-image: assets/img/about.jpg
-video_link: https://www.youtube.com/watch?v=Y7f98aduVJ8
+image: assets/img/about.png
+intro: >
+  RS GOLD is a trusted gold and silver buying service in Hyderabad. We focus on fair valuation,
+  clear communication, secure handling, and instant payouts.
 points:
-  - icon: bi bi-tag
-    heading: Affordability
-    text: DIGIGOLD offers the best price for all products compare to live market rates.
-
-  - icon: bi bi-bar-chart-line
-    heading: Systematic growth
-    text: With our no lock-in period SIP in Gold, You can achieve systematic growth of your investment.
-
   - icon: bi bi-patch-check
-    heading: Guaranteed Purity
-    text: We assure to serve you the purest 24 karat Products with 99.9% purity and BIS Hallmark. 
+    heading: Best Market Price
+    text: We check live market trends and offer competitive rates for your gold and silver.
 
-  - icon: bi bi-shield-lock
-    heading: Security
-    text: We serve our customers with the best & trusted vault keeper that provides security for transactions and storage.
+  - icon: bi bi-shield-check
+    heading: Trusted Process
+    text: Every transaction is handled with privacy, security, and complete transparency.
 
-  - icon: bi bi-globe
-    heading: Accessibility
-    text: DIGIGOLD provides all services for its customers 24x7 Globally.
+  - icon: bi bi-cpu
+    heading: XRF Purity Testing
+    text: We use computerised XRF testing for precise purity checks without damaging ornaments.
 
-  - icon: bi bi-currency-rupee
-    heading: High Liquidity
-    text: With DIGIGOLD you can buy, sell, gift, and store anywhere, anytime - online.
+  - icon: bi bi-bank
+    heading: Pledged Gold Release
+    text: We help close gold loans and release pledged gold from public and private banks.
+
+  - icon: bi bi-cash-coin
+    heading: Instant Payment
+    text: Get paid immediately in cash or bank transfer after valuation and confirmation.

@@ -1,9 +1,9 @@
 lang: en
 title: RS Gold
-email: your-email@example.com
+email: rsgoldbuyers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We buy your gold.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Trusted gold and silver buyers in Hyderabad. Instant cash payments and pledged gold release support.
+baseurl: "/rsgold_site" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:

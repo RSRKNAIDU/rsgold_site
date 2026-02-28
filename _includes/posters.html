@@ -1,0 +1,20 @@
+<!-- Posters Section -->
+<section id="posters" class="posters section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Promotional Posters</h2>
+    <div><span>Latest</span> <span class="description-title">Campaigns</span></div>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4">
+      {% assign poster_files = site.static_files | where_exp: "item", "item.path contains '/assets/img/posters/'" %}
+      {% for poster in poster_files %}
+      <div class="col-lg-3 col-md-6 col-sm-6" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
+        <a href="{{ poster.path | relative_url }}" class="poster-card glightbox" data-gallery="posters-gallery">
+          <img src="{{ poster.path | relative_url }}" alt="RS GOLD Promotional Poster {{ forloop.index }}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

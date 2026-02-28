@@ -1,36 +1,20 @@
 - title: Home
   url: "#hero"
+- title: Live Rates
+  url: "#live-rates" 
 - title: About
   url: "#about"
 - title: Services
   url: "#services"
-- title: Portfolio
-  url: "#portfolio"
-- title: Team
-  url: "#team"
-- title: Dropdown
-  dropdown: true
-  submenu:
-    - title: Dropdown 1
-      url: "#"
-    - title: Deep Dropdown
-      dropdown: true
-      submenu:
-        - title: Deep Dropdown 1
-          url: "#"
-        - title: Deep Dropdown 2
-          url: "#"
-        - title: Deep Dropdown 3
-          url: "#"
-        - title: Deep Dropdown 4
-          url: "#"
-        - title: Deep Dropdown 5
-          url: "#"
-    - title: Dropdown 2
-      url: "#"
-    - title: Dropdown 3
-      url: "#"
-    - title: Dropdown 4
-      url: "#"
+- title: Documents
+  url: "#call-to-action"
+- title: Posters
+  url: "#posters"
+- title: Locations
+  url: "#locations"
+- title: Testimonials
+  url: "#testimonials"
+- title: FAQ
+  url: "#faq"
 - title: Contact
   url: "#contact"

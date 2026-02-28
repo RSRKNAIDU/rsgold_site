@@ -1,0 +1,34 @@
+<!-- Locations Section -->
+<section id="locations" class="locations section">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>{{ site.data.home.locations.title }}</h2>
+    <div><span>{{ site.data.home.locations.subtitle }}</span> <span class="description-title">{{ site.data.home.locations.description }}</span></div>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4">
+      {% for store in site.data.home.locations.items %}
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="{{ forloop.index | times: 100 }}">
+        <div class="location-card">
+          <h3>{{ store.name }}</h3>
+          <p>{{ store.full_address }}</p>
+          <div class="map-frame">
+            <iframe
+              src="https://www.google.com/maps?q={{ store.embed_query | uri_escape }}&z=16&output=embed"
+              width="100%"
+              height="280"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="location-actions">
+            <a href="{{ store.map_link }}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

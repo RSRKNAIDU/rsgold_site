@@ -1,22 +1,28 @@
 interval: 5000
 items:
   - image: assets/img/hero-carousel/hero-carousel-1.jpg
-    title: RS Gold
+    title: Trusted Gold Buyers In Hyderabad
     description: >
-      Sell Your Old Gold & Get Cash Instantly.
-    button_text: Read More
-    button_link: "#about"
+      Sell old gold and silver for instant cash with transparent purity testing and best-value pricing.
+    button_text: Call Now
+    button_link: "tel:+919885975975"
+    secondary_button_text: WhatsApp Us
+    secondary_button_link: "https://wa.me/919885975975"
 
-  - image: assets/img/hero-carousel/hero-carousel-2.jpg
-    title: Still confused how to sell gold?
+  - image: assets/img/hero-carousel/hero-carousel-2.png
+    title: Release Your Pledged Gold Easily
     description: >
-      100% transparent process. Precise Gold Buying
-    button_text: Read More
+      We help release pledged gold from public and private banks by settling your remaining amount.
+    button_text: See Process
     button_link: "#services"
+    secondary_button_text: Check Documents
+    secondary_button_link: "#call-to-action"
 
-  - image: assets/img/hero-carousel/hero-carousel-3.jpg
-    title: Check Our Testimonials
+  - image: assets/img/hero-carousel/hero-carousel-3.png
+    title: Computerised XRF Purity Testing
     description: >
-      What our customers had to say about us.
-    button_text: Read More
-    button_link: "#faq"
+      Safe, accurate and transparent testing without damage, followed by immediate payment.
+    button_text: Visit Branch
+    button_link: "#contact"
+    secondary_button_text: View FAQ
+    secondary_button_link: "#faq"

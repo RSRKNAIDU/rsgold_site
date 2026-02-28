@@ -1,96 +1,119 @@
 services:
-  - icon: bi bi-shop
-    title: Visit RS Gold
-    description: Customers give their Gold to us for valuation. Each transaction is dealt with privacy and security
+  - icon: bi bi-person-walking
+    title: Visit RS GOLD
+    description: Bring your gold or silver items to our branch for secure and private evaluation.
     delay: 100
 
-  - icon: bi bi-file-richtext
-    title: KYC Verification
-    description: We do a KYC check. Photo ID, Work Proof and Address Proof is a mandatory requirement.
+  - icon: bi bi-card-checklist
+    title: Quick KYC Verification
+    description: Share valid ID and basic proof documents to complete a compliant transaction.
     delay: 200
 
-  - icon: bi bi-droplet
-    title: Release
-    description: We will send our representative with you to close your Gold loan.
+  - icon: bi bi-cpu
+    title: XRF Purity Testing
+    description: We perform computerised purity testing for accurate valuation without damage.
     delay: 300
 
-  - icon: bi bi-graph-up-arrow
-    title: Gold Valuation
-    description: We evaluate your gold. We do not remove beads/stones for evaluation. Based on the gold purity we will give you a quotation. Our rate is transparent.
+  - icon: bi bi-calculator
+    title: Transparent Valuation
+    description: You get a clear quotation based on purity, net weight, and live market price.
     delay: 400
 
-  - icon: bi bi-currency-exchange
-    title: Billing
-    description: Get the instant billing for your old gold as per the current market price 
+  - icon: bi bi-bank
+    title: Pledged Gold Release
+    description: We settle remaining dues and assist in releasing pledged gold from banks and lenders.
     delay: 500
 
-  - icon: bi bi-cash-coin
-    title: Get an Instant Payment
-    description: Spot cash offer or we can pay through RTGS / IMPS as per your requirement
+  - icon: bi bi-cash-stack
+    title: Instant Payment
+    description: Receive spot cash or bank transfer through IMPS, NEFT, RTGS, or UPI.
     delay: 600
- 
+
 call-to-action:
   image: assets/img/cta-bg.jpg
-  title: Call To Action
-  description: >
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  button_text: Call To Action
-  button_link: #
+  title: Documents Required
+  description: Carry the required documents for faster processing.
+  button_text: Call RS GOLD
+  button_link: tel:+919885975975
 
 contact:
   title: Contact
-  subtitle: Need Help?
-  description: Contact Us
+  subtitle: Need a Quick Valuation?
+  description: Reach RS GOLD
 
   info1: Address
-  address_line1: A108 Adam Street
-  address_line2: New York, NY 535022
+  address_line1: Plot No. 69, 1st Floor, Opposite Babai Hotel
+  address_line2: Sai Ram Colony, Puppalguda, Manikonda, Hyderabad
 
   info2: Call Us
-  phone: "+1 5589 55488 55"
-  phone_alt: "+1 5589 55488 55"
+  phone: "+91 98859 75975"
+  phone_alt: "+91 98482 28229"
 
-  info3: Email Us
-  email: info@example.com
-  email_alt: contact@example.com
+  info3: WhatsApp
+  email: "+91 98859 75975"
+  email_alt: "Fast response for gold price queries"
 
   info4: Open Hours
-  week: Monday - Friday
-  time:  9:00AM - 05:00PM
+  week: Monday - Sunday
+  time: 9:00 AM - 9:00 PM
 
-form_action: https://formspree.io/f/xwpljpqr
+form_action: "#"
 
 social_links:
-  - platform: twitter-x
-    url: "#"
-  - platform: facebook
-    url: "#"
+  - platform: whatsapp
+    url: "https://wa.me/919885975975"
   - platform: instagram
     url: "#"
-  - platform: linkedin
+  - platform: facebook
     url: "#"
 
 useful_links:
   - title: Home
-    url: "#"
-  - title: About us
-    url: "#"
-  - title: Services
-    url: "#"
-  - title: Terms of service
-    url: "#"
-  - title: Privacy policy
-    url: "#"
+    url: "#hero"
+  - title: About
+    url: "#about"
+  - title: Process
+    url: "#services"
+  - title: Documents
+    url: "#call-to-action"
+  - title: Contact
+    url: "#contact"
 
 branches:
-  - Web Design
-  - Web Development
-  - Product Management
-  - Marketing
-  - Graphic Design
+  - Gold Buying
+  - Silver Buying
+  - Pledged Gold Release
+  - XRF Purity Testing
 
 newsletter:
-  description: "Subscribe to our newsletter and receive the latest news about our products and services!"
-  form_action: "forms/newsletter.php"
+  description: "Call us for live gold rates and same-day transactions."
+  form_action: "#"
 
+brand:
+  logo: "/assets/img/logo.png"
+  logo_alt: "RS GOLD Logo"
+
+whatsapp:
+  number: "919885975975"
+  text: "Hello RS GOLD, I want today's gold rate and valuation details."
+
+live_rates:
+  title: Live Gold & Silver Rate
+  subtitle: Hyderabad / India
+  description: Real-time indicative rates in INR. Final branch valuation may vary by purity and item condition.
+
+locations:
+  title: Our Stores
+  subtitle: Visit
+  description: RS GOLD Branches
+  items:
+    - name: RS GOLD
+      short_address: Puppalguda, Manikonda, Hyderabad
+      full_address: Plot No. 69, 1st Floor, Opposite Babai Hotel, Sai Ram Colony, Puppalguda, Manikonda, Hyderabad
+      map_link: "https://maps.app.goo.gl/5c4hVzdQzCEyYTSr8"
+      embed_query: "17.4008563,78.3885581"
+    - name: RS GOLD LANCOHILLS
+      short_address: Lanco Hills, Hyderabad
+      full_address: RS GOLD LANCOHILLS, Hyderabad
+      map_link: "https://maps.app.goo.gl/gMRWKzMjmmVmvNBD6"
+      embed_query: "17.4072329,78.3796698"

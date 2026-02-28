@@ -4,11 +4,16 @@
   
         {% for item in site.data.hero.items %}
         <div class="carousel-item {% if forloop.first %}active{% endif %}">
-          <img src="/{{ item.image }}" alt="">
+          <img src="{{ item.image | relative_url }}" alt="">
           <div class="carousel-container">
             <h2>{{ item.title }}</h2>
             <p>{{ item.description }}</p>
-            <a href="{{ item.button_link }}" class="btn-get-started">{{ item.button_text }}</a>
+            <div class="hero-actions">
+              <a href="{{ item.button_link }}" class="btn-get-started">{{ item.button_text }}</a>
+              {% if item.secondary_button_text and item.secondary_button_link %}
+              <a href="{{ item.secondary_button_link }}" class="btn-alt">{{ item.secondary_button_text }}</a>
+              {% endif %}
+            </div>
           </div>
         </div>
         {% endfor %}

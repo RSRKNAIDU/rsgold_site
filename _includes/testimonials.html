@@ -2,7 +2,7 @@
 <section id="testimonials" class="testimonials section">
     <div class="container section-title" data-aos="fade-up">
       <h2>Testimonials</h2>
-      <div><span>Check Our</span> <span class="description-title">Testimonials</span></div>
+      <div><span>What Customers Say</span> <span class="description-title">About RS GOLD</span></div>
     </div>
   
     <div class="container">
@@ -10,7 +10,6 @@
         {% for testimonial in site.data.testimonials %}
         <div class="col-lg-6" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 100 }}">
           <div class="testimonial-item">
-            <img src="{{ testimonial.image }}" class="testimonial-img" alt="{{ testimonial.name }}">
             <h3>{{ testimonial.name }}</h3>
             <h4>{{ testimonial.role }}</h4>
             <div class="stars">

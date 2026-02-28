@@ -1,7 +1,10 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
   <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <a href="/" class="logo d-flex align-items-center"><h1 class="sitename">{{ site.title }}</h1></a>
+    <a href="{{ '/' | relative_url }}" class="logo d-flex align-items-center">
+      <span class="brand-logo protected-logo" style="--brand-logo:url('{{ site.data.home.brand.logo | relative_url }}');" aria-label="{{ site.data.home.brand.logo_alt }}" role="img"></span>
+      <h1 class="sitename">{{ site.title }}</h1>
+    </a>
 
     <nav id="navmenu" class="navmenu">
       <ul> 
@@ -44,7 +47,7 @@
       <h1>{{ page.title }}</h1>
       <nav class="breadcrumbs">
         <ol>
-          <li><a href="/">Home</a></li>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
           <li class="current">{{ page.title }}</li>
         </ol>
       </nav>

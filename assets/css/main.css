@@ -236,8 +236,9 @@ h6 {
   line-height: 1;
 }
 
-.header .logo img {
-  max-height: 32px;
+.header .logo .brand-logo {
+  width: 32px;
+  height: 32px;
   margin-right: 8px;
 }
 
@@ -516,8 +517,9 @@ h6 {
   margin-bottom: 25px;
 }
 
-.footer .footer-about .logo img {
-  max-height: 40px;
+.footer .footer-about .logo .brand-logo {
+  width: 40px;
+  height: 40px;
   margin-right: 6px;
 }
 
@@ -1317,18 +1319,10 @@ section,
   height: 100%;
 }
 
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid var(--background-color);
-  float: left;
-  margin: 0 10px 0 0;
-}
-
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
+  margin: 0 0 5px 0;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1371,6 +1365,7 @@ section,
   font-style: italic;
   margin: 15px 0 0 0;
   padding: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -1817,5 +1812,389 @@ section,
 
   .doc-title {
     font-size: 0.85rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# RS GOLD Custom Brand Styling
+--------------------------------------------------------------*/
+:root {
+  --default-font: "Manrope", sans-serif;
+  --heading-font: "Cinzel", serif;
+  --nav-font: "Manrope", sans-serif;
+  --background-color: #fff9ef;
+  --default-color: #311f14;
+  --heading-color: #3d1f10;
+  --accent-color: #d58e07;
+  --nav-hover-color: #f6c447;
+}
+
+.header {
+  background: linear-gradient(90deg, rgba(88, 11, 12, 0.95), rgba(180, 34, 34, 0.92));
+}
+
+.header .sitename {
+  color: #ffd86f;
+  letter-spacing: 0.08em;
+}
+
+.hero .carousel-item::before {
+  background: linear-gradient(135deg, rgba(54, 10, 10, 0.8), rgba(120, 23, 15, 0.62));
+}
+
+.hero .carousel-container h2 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  color: #ffdf86;
+}
+
+.hero .carousel-container p {
+  color: #fff7d7;
+  max-width: 760px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.hero .btn-get-started,
+.hero .btn-alt {
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.hero .btn-alt {
+  border: 1px solid rgba(255, 231, 169, 0.8);
+  color: #fff;
+}
+
+.hero .btn-alt:hover {
+  background-color: #f7c449;
+  color: #48270d;
+}
+
+.about .content ul li i {
+  color: #c66a00;
+}
+
+.promise-card {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  background: radial-gradient(circle at top, #ffe99a, #f2be3f);
+  color: #4a2f00;
+  border-radius: 18px;
+  padding: 14px 16px;
+  max-width: 240px;
+  box-shadow: 0 10px 24px rgba(53, 20, 1, 0.25);
+}
+
+.promise-card h4 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.promise-card p {
+  margin: 6px 0 0;
+  font-size: 0.92rem;
+}
+
+.services .service-item .icon {
+  background-color: #fff3d8;
+}
+
+.services .service-item:hover .icon {
+  background-color: #f9d376;
+}
+
+.call-to-action::before {
+  background: linear-gradient(135deg, rgba(84, 10, 10, 0.84), rgba(195, 43, 27, 0.75));
+}
+
+.doc-card {
+  background: linear-gradient(160deg, #7a1515, #ca3f2a);
+  color: #ffecc0;
+  border: 1px solid rgba(255, 231, 158, 0.36);
+}
+
+.contact-panel {
+  background: #fff;
+  border: 1px solid #f1ddb8;
+  box-shadow: 0 12px 24px rgba(88, 34, 0, 0.09);
+  border-radius: 16px;
+  padding: 28px;
+  height: 100%;
+}
+
+.contact-panel h3 {
+  margin-bottom: 10px;
+}
+
+.contact-panel ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 18px 0;
+}
+
+.contact-panel li {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  color: #4a2d1c;
+}
+
+.contact-panel li i {
+  color: #c57600;
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn-contact {
+  display: inline-block;
+  border-radius: 999px;
+  font-weight: 700;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+}
+
+.btn-call {
+  background: #b53822;
+  color: #fff;
+}
+
+.btn-whatsapp {
+  background: #fff;
+  color: #067a41;
+  border-color: #067a41;
+}
+
+.btn-call:hover {
+  background: #8f1f10;
+  color: #fff;
+}
+
+.btn-whatsapp:hover {
+  background: #067a41;
+  color: #fff;
+}
+
+.footer {
+  background: linear-gradient(135deg, #3d0808, #7b1f18);
+}
+
+@media (max-width: 991px) {
+  .header .sitename {
+    font-size: 1.55rem;
+  }
+
+  .promise-card {
+    right: 12px;
+    bottom: 12px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero .btn-get-started,
+  .hero .btn-alt {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-panel {
+    padding: 22px;
+  }
+}
+
+.brand-logo {
+  display: inline-block;
+  background-image: var(--brand-logo);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  flex-shrink: 0;
+}
+
+.header .logo .brand-logo,
+.footer .logo .brand-logo {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.live-rates .section-title p {
+  margin-top: 12px;
+}
+
+.rate-card {
+  background: #fff;
+  border: 1px solid #f1ddb8;
+  border-radius: 14px;
+  padding: 22px 18px;
+  text-align: center;
+  box-shadow: 0 8px 18px rgba(70, 30, 0, 0.08);
+}
+
+.rate-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.rate-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #9f300f;
+  margin-bottom: 6px;
+}
+
+.rate-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.rate-meta p {
+  margin: 0;
+}
+
+.btn-rate-whatsapp {
+  background: #0a8044;
+  color: #fff;
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.btn-rate-whatsapp:hover {
+  background: #076c39;
+  color: #fff;
+}
+
+.location-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 18px;
+  border: 1px solid #f1ddb8;
+  box-shadow: 0 10px 20px rgba(74, 31, 0, 0.08);
+  height: 100%;
+}
+
+.location-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.location-card p {
+  margin-bottom: 12px;
+}
+
+.map-frame {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.location-actions {
+  margin-top: 12px;
+}
+
+.location-actions a {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #b84023;
+  color: #b84023;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.location-actions a:hover {
+  background: #b84023;
+  color: #fff;
+}
+
+.posters .poster-card {
+  display: block;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #f1ddb8;
+  box-shadow: 0 10px 20px rgba(74, 31, 0, 0.09);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.posters .poster-card img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+}
+
+.posters .poster-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 28px rgba(74, 31, 0, 0.16);
+}
+
+.whatsapp-float {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 1001;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 14px;
+  background: #0b8a4a;
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 700;
+  box-shadow: 0 10px 20px rgba(8, 72, 40, 0.3);
+}
+
+.whatsapp-float i {
+  font-size: 1.2rem;
+}
+
+.whatsapp-float:hover {
+  background: #066d39;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .header .logo .brand-logo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .header .sitename {
+    font-size: 1.3rem;
+  }
+
+  .rate-meta {
+    align-items: flex-start;
+  }
+
+  .posters .poster-card img {
+    height: 320px;
+  }
+
+  .whatsapp-float span {
+    display: none;
+  }
+
+  .whatsapp-float {
+    padding: 12px;
+    border-radius: 50%;
   }
 }

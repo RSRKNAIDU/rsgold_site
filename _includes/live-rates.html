@@ -1,0 +1,46 @@
+<!-- Live Rates Section -->
+<section id="live-rates" class="live-rates section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>{{ site.data.home.live_rates.title }}</h2>
+    <div><span>{{ site.data.home.live_rates.subtitle }}</span> <span class="description-title">Today</span></div>
+    <p>{{ site.data.home.live_rates.description }}</p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="rate-card">
+          <h3>Gold 24K</h3>
+          <p class="rate-value" id="rate-gold-24">Loading...</p>
+          <small>Per gram (INR)</small>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="rate-card">
+          <h3>Gold 22K</h3>
+          <p class="rate-value" id="rate-gold-22">Loading...</p>
+          <small>Per gram (INR)</small>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="rate-card">
+          <h3>Gold 18K</h3>
+          <p class="rate-value" id="rate-gold-18">Loading...</p>
+          <small>Per gram (INR)</small>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="rate-card">
+          <h3>Silver</h3>
+          <p class="rate-value" id="rate-silver">Loading...</p>
+          <small>Per gram (INR)</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="rate-meta mt-4">
+      <p id="rate-updated">Fetching live market data...</p>
+      <a class="btn-rate-whatsapp" href="https://wa.me/{{ site.data.home.whatsapp.number }}?text={{ site.data.home.whatsapp.text | uri_escape }}">Ask on WhatsApp</a>
+    </div>
+  </div>
+</section>
