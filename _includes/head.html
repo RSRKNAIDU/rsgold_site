@@ -5,18 +5,16 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta
     name="viewport"
-    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+    content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
- 
+
   {%- capture seo_tags -%}
     {% seo title=false %}
   {%- endcapture -%}
 
   <!-- Setup Open Graph image -->
-
   {% if page.image %}
     {% assign src = page.image.path | default: page.image %}
-
     {% unless src contains '://' %} 
       {%- capture img_url -%} 
         {% include media-url.html src=src subpath=page.media_subpath absolute=true %}
@@ -36,8 +34,8 @@
       {{ page.title | append: ' | ' }}
     {%- endunless -%}
     {{ site.title }}
-  </title> 
- 
+  </title>
+
   {% include favicons.html %}
 
   <meta name="description" content="">
